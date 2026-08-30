@@ -25,7 +25,7 @@ public class Square : GeometricFigure
     {
         if (a <=  0)
         { 
-            throw new ArgumentException($"The radius: {a}, is not valid.");
+            throw new ArgumentException($"The side: {a}, is not valid.");
          }
        return a;
     }

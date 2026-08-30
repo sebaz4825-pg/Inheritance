@@ -15,7 +15,7 @@ public abstract class GeometricFigure
     public abstract double GetArea();
     public abstract double GetPerimiter();
 
-    public override string ToString() => $"{Name}\n" + $" => Area.....: {GetArea(),12:N5}\n" + $"Perimiter: {GetPerimiter(),12:N5}\n";
+    public override string ToString() => $"{Name}\n" + $" => Area.....: {GetArea():N5}\n" + $"Perimiter: {GetPerimiter():N5}\n";
     
 }
 

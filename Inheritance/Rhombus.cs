@@ -40,7 +40,7 @@ public Rhombus(string name, double a, double d1, double d2) : base(name, a)
     {
         if (d1 <= 0)
         {
-            throw new ArgumentException($"The radius: {d1}, is not valid.");
+            throw new ArgumentException($"The diagonal 1: {d1}, is not valid.");
         }
         return d1;
     }
@@ -48,7 +48,7 @@ public Rhombus(string name, double a, double d1, double d2) : base(name, a)
     {
         if (d2 <= 0)
         {
-            throw new ArgumentException($"The radius: {d2}, is not valid.");
+            throw new ArgumentException($"The diagonal 2: {d2}, is not valid.");
         }
         return d2;
     }
