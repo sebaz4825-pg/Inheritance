@@ -21,11 +21,12 @@
       <FileName>Square.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Backend.Rhombus">
+  <Class Name="Backend.Triangle">
     <Position X="4.5" Y="3" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAQAAAAAAEIAAkAEAAAAAA=</HashCode>
-      <FileName>Rhombus.cs</FileName>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAmEABAAA=</HashCode>
+      <FileName>Triangle.cs</FileName>
+      <NewMemberFileName>Rhombus.cs</NewMemberFileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Backend.Kite">
@@ -40,6 +41,13 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
       <FileName>Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Backend.Parallelogram">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAGEAAAAA=</HashCode>
+      <FileName>Parallelogram.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
