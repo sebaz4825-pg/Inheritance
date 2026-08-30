@@ -3,9 +3,11 @@ namespace Backend;
 
 public class Rectangle : Square
 {
+    //Fields
   private double _b;
+  //Constructor
   public Rectangle(string name, double a, double b) : base(name, a)
-    //Constructor
+    
   { 
     B = b;
   }
