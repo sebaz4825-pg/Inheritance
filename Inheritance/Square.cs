@@ -1,5 +1,5 @@
 ﻿
-namespace Backend;
+namespace GeometricFigures.Backend;
 
 public class Square : GeometricFigure
 {
@@ -17,7 +17,7 @@ public class Square : GeometricFigure
     {
         return Math.Pow(_a, 2);
     }
-    public override double GetPerimiter()
+    public override double GetPerimeter()
     {
         return 4 * _a;
     }

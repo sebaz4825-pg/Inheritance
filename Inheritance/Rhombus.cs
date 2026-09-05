@@ -1,5 +1,5 @@
 ﻿
-namespace Backend;
+namespace GeometricFigures.Backend;
 
 public class Rhombus : Square
 
@@ -9,8 +9,8 @@ public class Rhombus : Square
     private double _d2;
 
 
-//Constructor
-public Rhombus(string name, double a, double d1, double d2) : base(name, a)
+    //Constructor
+    public Rhombus(string name, double a, double d1, double d2) : base(name, a)
     {
         D1 = d1;
         D2 = d2;
@@ -32,9 +32,9 @@ public Rhombus(string name, double a, double d1, double d2) : base(name, a)
     {
         return (_d1 * _d2) / 2;
     }
-    public override double GetPerimiter()
+    public override double GetPerimeter()
     {
-        return base.GetPerimiter();
+        return base.GetPerimeter();
     }
     private double ValidateD1(double d1)
     {

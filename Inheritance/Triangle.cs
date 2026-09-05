@@ -1,6 +1,6 @@
 ﻿
 
-namespace Backend;
+namespace GeometricFigures.Backend;
 
 public class Triangle : Rectangle
 
@@ -33,7 +33,7 @@ public class Triangle : Rectangle
     {
         return (B * H) / 2;
     }
-    public override double GetPerimiter()
+    public override double GetPerimeter()
     {
         return A + B + _c;
     }

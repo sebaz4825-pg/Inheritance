@@ -1,15 +1,13 @@
 ﻿
 
-namespace Backend;
+namespace GeometricFigures.Backend;
 
 public class Parallelogram : Rectangle
 
 {
     private double _h;
-
-    public Parallelogram(string name, double a, double b, double h) : base(name, a, b)
-    
     //Constructor
+    public Parallelogram(string name, double a, double b, double h) : base(name, a, b) 
     {
         H = h;
     }
@@ -24,9 +22,9 @@ public class Parallelogram : Rectangle
     {
         return B * _h;
     }
-    public override double GetPerimiter()
+    public override double GetPerimeter()
     {
-        return base.GetPerimiter();
+        return base.GetPerimeter();
     }
     private double ValidateH(double h)
     {

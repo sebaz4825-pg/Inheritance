@@ -1,25 +1,27 @@
 ﻿
 
-namespace Backend;
+namespace GeometricFigures.Backend;
 
-    public class Circle : GeometricFigure
+public class Circle : GeometricFigure
+{
+    //Fields
+    private double _r;
+    public Circle(string name, double r) : base(name)
     {
-        private double _r;
-        public Circle(string name, double r) : base(name)
-        {
-            R = r;
-        }
-        public double R
-        {
+        R = r;
+    }
+    //Propertier
+    public double R
+    {
             get => _r;
             set => _r = ValidateR(value); 
-
-        }
+    }
+    //Methods
     public override double GetArea()
     {
         return Math.PI * Math.Pow(_r, 2);
     }
-    public override double GetPerimiter()
+    public override double GetPerimeter()
     {
         return 2 * Math.PI * _r; 
     }
@@ -32,5 +34,5 @@ namespace Backend;
         return r;
     }
 
-    }
+}
 

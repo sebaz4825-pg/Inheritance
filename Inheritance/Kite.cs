@@ -1,11 +1,12 @@
 ﻿
-namespace Backend;
+namespace GeometricFigures.Backend;
 
-    public class Kite : Rhombus
+public class Kite : Rhombus
     {
+    //Fields
         private double _b;
         //Constructor
-    public Kite(string name, double a, double d1, double d2, double b) : base(name, a, d1, d2)
+        public Kite(string name, double a, double d1, double d2, double b) : base(name, a, d1, d2)
         {
             B = b;
         }
@@ -20,7 +21,7 @@ namespace Backend;
         {
             return base.GetArea();
         }
-        public override double GetPerimiter()
+        public override double GetPerimeter()
         {
             return 2 * (A + _b);
         }

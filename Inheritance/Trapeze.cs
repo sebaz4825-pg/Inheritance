@@ -1,13 +1,15 @@
 ﻿
 
-namespace Backend;
+namespace GeometricFigures.Backend;
 
 
 public class Trapeze : Triangle
 {
+    //Fields
     private double _d;
-    public Trapeze(string name, double a, double b, double c, double d, double h) : base(name, a,b,c,h)
     //Constructor
+    public Trapeze(string name, double a, double b, double c, double d, double h) : base(name, a,b,c,h)
+    
     {
         D = d;
     }
@@ -22,7 +24,7 @@ public class Trapeze : Triangle
     {
         return (B + _d) * H / 2;
     }
-    public override double GetPerimiter()
+    public override double GetPerimeter()
     {
         return A + B + C + _d;
     }
@@ -35,4 +37,4 @@ public class Trapeze : Triangle
             return d;
         
     }
-  }
+}

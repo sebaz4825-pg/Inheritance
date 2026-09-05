@@ -1,5 +1,5 @@
 ﻿
-namespace Backend;
+namespace GeometricFigures.Backend;
 
 public abstract class GeometricFigure
  {
@@ -13,9 +13,9 @@ public abstract class GeometricFigure
     }
     // methodsd
     public abstract double GetArea();
-    public abstract double GetPerimiter();
+    public abstract double GetPerimeter();
 
-    public override string ToString() => $"{Name,-17} => Area.....: {GetArea(),13:N5}     Perimiter: {GetPerimiter(),12:N5}";
+    public override string ToString() => $"{Name,-17} => Area.....: {GetArea(),13:N5}     Perimiter: {GetPerimeter(),12:N5}";
     
 }
 
